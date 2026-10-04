@@ -1,0 +1,41 @@
+{
+  "name": "commit-checkpoint",
+  "version": "1.0.0",
+  "description": "Dump every modified and newly added git file (relative path + full contents) into a single txt file.",
+  "main": "lib/index.js",
+  "bin": {
+    "commit-checkpoint": "bin/commit-checkpoint.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "git",
+    "checkpoint",
+    "cli",
+    "changes",
+    "snapshot"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SENODROOM/commit-checkpoint.git"
+  },
+  "author": "Muhammad Saad Amin",
+  "bugs": {
+    "url": "https://github.com/SENODROOM/commit-checkpoint/issues"
+  },
+  "homepage": "https://github.com/SENODROOM/commit-checkpoint#readme"
+}
